@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>MSCI World Index Guide | Performance, Returns & £100,000 Investment Examples</title>
+<title>MSCI World Index Guide | Performance, £100,000 Examples & Investment Research</title>
 
-<meta name="description" content="Explore the MSCI World Index with historical performance, £100,000 investment examples, global diversification, major holdings, risks and five-year illustrative investment scenarios.">
+<meta name="description" content="Explore the MSCI World Index, historical performance, diversification, risks and illustrative £100,000 investment examples. Understand what the index is, how it has performed and what future scenarios could look like.">
 
 <meta name="robots" content="index, follow">
 
@@ -16,743 +16,27 @@
 
 <meta property="og:title" content="MSCI World Index Guide | Performance & Investment Research">
 
-<meta property="og:description" content="A practical research guide to the MSCI World Index, historical returns, £100,000 investment examples, diversification and investment risks.">
-
-<meta property="og:type" content="website">
+<meta property="og:description" content="A professional educational guide to the MSCI World Index, historical performance, diversification, risks and £100,000 investment examples.">
 
 <meta property="og:url" content="https://gavs25.github.io/msci-world-index/">
 
-<style>
+<meta property="og:type" content="website">
 
-* {
-    box-sizing: border-box;
-}
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #080b10;
-    color: #f4f5f7;
-    line-height: 1.7;
-}
-
-a {
-    color: inherit;
-}
-
-.container {
-    max-width: 1150px;
-    margin: auto;
-    padding: 0 22px;
-}
-
-/* HEADER */
-
-header {
-    background: rgba(8,11,16,0.97);
-    border-bottom: 1px solid #242b35;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    backdrop-filter: blur(12px);
-}
-
-.header-inner {
-    max-width: 1150px;
-    margin: auto;
-    padding: 18px 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 22px;
-    font-weight: 800;
-    letter-spacing: 1px;
-}
-
-.logo span {
-    color: #c8a45d;
-}
-
-nav {
-    display: flex;
-    gap: 22px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #c7ccd3;
-    font-size: 14px;
-}
-
-nav a:hover {
-    color: #d8b66c;
-}
-
-/* HERO */
-
-.hero {
-    min-height: 720px;
-    display: flex;
-    align-items: center;
-    background:
-        radial-gradient(circle at 70% 20%, rgba(199,164,93,0.20), transparent 32%),
-        radial-gradient(circle at 20% 80%, rgba(31,75,110,0.18), transparent 35%),
-        linear-gradient(135deg,#080b10,#10161e);
-    border-bottom: 1px solid #252d37;
-}
-
-.hero-content {
-    max-width: 900px;
-    padding: 95px 0;
-}
-
-.badge {
-    display: inline-block;
-    padding: 8px 16px;
-    border: 1px solid #806b3e;
-    border-radius: 50px;
-    color: #d8b66c;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
-
-.hero h1 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(44px,7vw,76px);
-    line-height: 1.05;
-    margin: 0 0 25px;
-}
-
-.hero h1 span {
-    color: #d8b66c;
-}
-
-.hero p {
-    max-width: 760px;
-    color: #c8cdd4;
-    font-size: 20px;
-    margin-bottom: 35px;
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.button {
-    display: inline-block;
-    padding: 16px 28px;
-    border-radius: 7px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    transition: 0.2s;
-}
-
-.button-primary {
-    background: #d8b66c;
-    color: #080b10;
-}
-
-.button-primary:hover {
-    transform: translateY(-2px);
-    background: #e5c67f;
-}
-
-.button-secondary {
-    border: 1px solid #59636f;
-    color: white;
-}
-
-.button-secondary:hover {
-    border-color: #d8b66c;
-    color: #d8b66c;
-}
-
-.data-date {
-    margin-top: 25px;
-    color: #8f98a3;
-    font-size: 13px;
-}
-
-/* STAT BAR */
-
-.stats {
-    background: #10151c;
-    border-bottom: 1px solid #252d37;
-}
-
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-
-.stat {
-    padding: 30px 15px;
-    text-align: center;
-    border-right: 1px solid #252d37;
-}
-
-.stat:last-child {
-    border-right: none;
-}
-
-.stat-number {
-    font-size: 29px;
-    font-weight: bold;
-    color: #d8b66c;
-}
-
-.stat-label {
-    color: #8e98a4;
-    font-size: 13px;
-    margin-top: 5px;
-}
-
-/* SECTIONS */
-
-section {
-    padding: 90px 0;
-}
-
-.section-title {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 55px;
-}
-
-.section-title h2 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 42px;
-    margin: 0 0 15px;
-}
-
-.section-title p {
-    color: #9fa8b3;
-    font-size: 17px;
-}
-
-/* INTRO */
-
-.intro {
-    background: #0b1016;
-}
-
-.intro-grid {
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 35px;
-    align-items: stretch;
-}
-
-.card {
-    background: #121820;
-    border: 1px solid #29323d;
-    border-radius: 16px;
-    padding: 35px;
-}
-
-.card h3 {
-    font-size: 25px;
-    margin-top: 0;
-    color: #ffffff;
-}
-
-.card p {
-    color: #b4bcc6;
-}
-
-.highlight {
-    border-left: 4px solid #d8b66c;
-}
-
-/* PERFORMANCE */
-
-.performance {
-    background: #080b10;
-}
-
-.performance-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-}
-
-.performance-card {
-    background: #111820;
-    border: 1px solid #29333e;
-    border-radius: 16px;
-    padding: 30px;
-}
-
-.performance-card h3 {
-    margin-top: 0;
-    font-size: 22px;
-}
-
-.big-number {
-    font-size: 44px;
-    font-weight: bold;
-    color: #d8b66c;
-    margin: 10px 0;
-}
-
-.small-note {
-    color: #89939e;
-    font-size: 13px;
-}
-
-/* TABLE */
-
-.table-wrapper {
-    overflow-x: auto;
-    margin-top: 35px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #111820;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-th,
-td {
-    padding: 17px;
-    text-align: left;
-    border-bottom: 1px solid #29323d;
-}
-
-th {
-    background: #19212b;
-    color: #d8b66c;
-}
-
-td {
-    color: #c4cbd3;
-}
-
-/* CHART */
-
-.chart-box {
-    background: #111820;
-    border: 1px solid #29323d;
-    border-radius: 16px;
-    padding: 30px;
-    margin-top: 30px;
-}
-
-.chart-title {
-    font-size: 21px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.chart {
-    display: flex;
-    align-items: flex-end;
-    gap: 14px;
-    height: 260px;
-    padding: 20px 10px 0;
-    border-bottom: 1px solid #45505c;
-}
-
-.bar {
-    flex: 1;
-    min-width: 30px;
-    background: linear-gradient(to top,#8f7439,#d8b66c);
-    border-radius: 5px 5px 0 0;
-    position: relative;
-}
-
-.bar span {
-    position: absolute;
-    top: -28px;
-    width: 100%;
-    text-align: center;
-    font-size: 11px;
-    color: #bfc6ce;
-}
-
-.chart-labels {
-    display: flex;
-    gap: 14px;
-    padding: 8px 10px;
-}
-
-.chart-labels div {
-    flex: 1;
-    text-align: center;
-    color: #87919c;
-    font-size: 11px;
-}
-
-/* INVESTMENT EXAMPLES */
-
-.examples {
-    background: #10161d;
-}
-
-.example-grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 25px;
-}
-
-.example-card {
-    background: #151d26;
-    border: 1px solid #303b47;
-    border-radius: 16px;
-    padding: 35px;
-}
-
-.example-card h3 {
-    margin-top: 0;
-    font-size: 22px;
-}
-
-.example-value {
-    font-size: 42px;
-    color: #d8b66c;
-    font-weight: bold;
-    margin: 15px 0;
-}
-
-.example-card p {
-    color: #aeb7c1;
-}
-
-/* CALCULATOR */
-
-.calculator {
-    background: #080b10;
-}
-
-.calculator-box {
-    max-width: 850px;
-    margin: auto;
-    background: #121820;
-    border: 1px solid #303b47;
-    border-radius: 18px;
-    padding: 40px;
-}
-
-.form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-label {
-    display: block;
-    color: #bfc6ce;
-    font-size: 14px;
-    margin-bottom: 8px;
-}
-
-input,
-select {
-    width: 100%;
-    padding: 14px;
-    border-radius: 7px;
-    border: 1px solid #414c58;
-    background: #0b1016;
-    color: white;
-    font-size: 16px;
-}
-
-.result {
-    margin-top: 30px;
-    padding: 25px;
-    background: #0b1016;
-    border: 1px solid #3a4652;
-    border-radius: 12px;
-    text-align: center;
-}
-
-.result-value {
-    font-size: 40px;
-    color: #d8b66c;
-    font-weight: bold;
-}
-
-/* HOLDINGS */
-
-.holdings {
-    background: #10161d;
-}
-
-.holdings-grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 18px;
-}
-
-.holding {
-    display: flex;
-    justify-content: space-between;
-    padding: 18px 20px;
-    background: #151d26;
-    border: 1px solid #2b3540;
-    border-radius: 10px;
-}
-
-.holding-name {
-    font-weight: bold;
-}
-
-.holding-weight {
-    color: #d8b66c;
-}
-
-/* DIVERSIFICATION */
-
-.diversification {
-    background: #080b10;
-}
-
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 22px;
-}
-
-.info-card {
-    background: #111820;
-    border: 1px solid #29333e;
-    border-radius: 14px;
-    padding: 28px;
-}
-
-.info-card .icon {
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-.info-card h3 {
-    margin-top: 0;
-}
-
-/* RISK */
-
-.risk {
-    background: #10161d;
-}
-
-.risk-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-}
-
-.risk-card {
-    background: #151d26;
-    border: 1px solid #303b47;
-    border-radius: 15px;
-    padding: 30px;
-}
-
-.risk-card h3 {
-    margin-top: 0;
-}
-
-.warning {
-    border-left: 4px solid #c45b5b;
-}
-
-/* PREMIUM */
-
-.premium {
-    background:
-        radial-gradient(circle at 50% 0%,rgba(216,182,108,0.18),transparent 35%),
-        #080b10;
-    text-align: center;
-}
-
-.premium-box {
-    max-width: 850px;
-    margin: auto;
-    background: linear-gradient(145deg,#151d26,#0e141b);
-    border: 1px solid #655737;
-    border-radius: 20px;
-    padding: 55px 35px;
-}
-
-.premium-box h2 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 43px;
-    margin-top: 0;
-}
-
-.premium-price {
-    font-size: 55px;
-    color: #d8b66c;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-.premium-list {
-    max-width: 600px;
-    margin: 30px auto;
-    text-align: left;
-}
-
-.premium-list li {
-    margin-bottom: 12px;
-    color: #c5ccd4;
-}
-
-/* FAQ */
-
-.faq {
-    background: #10161d;
-}
-
-.faq-list {
-    max-width: 850px;
-    margin: auto;
-}
-
-.faq-item {
-    background: #151d26;
-    border: 1px solid #2c3742;
-    border-radius: 12px;
-    padding: 25px;
-    margin-bottom: 15px;
-}
-
-.faq-item h3 {
-    margin-top: 0;
-    font-size: 20px;
-}
-
-/* DISCLAIMER */
-
-.disclaimer {
-    background: #e5e1d7;
-    color: #3e403f;
-    padding: 35px 20px;
-    font-size: 13px;
-}
-
-.disclaimer-inner {
-    max-width: 1050px;
-    margin: auto;
-}
-
-/* FOOTER */
-
-footer {
-    background: #06080b;
-    border-top: 1px solid #242b35;
-    text-align: center;
-    padding: 35px 20px;
-    color: #7f8994;
-    font-size: 13px;
-}
-
-footer a {
-    color: #d8b66c;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-/* MOBILE */
-
-@media(max-width:800px) {
-
-    nav {
-        display: none;
-    }
-
-    .hero {
-        min-height: auto;
-    }
-
-    .hero-content {
-        padding: 75px 0;
-    }
-
-    .hero h1 {
-        font-size: 43px;
-    }
-
-    .hero p {
-        font-size: 17px;
-    }
-
-    .stats-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .stat:nth-child(2) {
-        border-right: none;
-    }
-
-    .intro-grid,
-    .performance-grid,
-    .example-grid,
-    .risk-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .info-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .holdings-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-
-    .section-title h2 {
-        font-size: 33px;
-    }
-
-    .premium-box h2 {
-        font-size: 34px;
-    }
-
-}
-
-</style>
-
-
-<!-- SEO STRUCTURED DATA -->
+<!-- STRUCTURED DATA -->
 
 <script type="application/ld+json">
-
 {
   "@context":"https://schema.org",
-  "@type":"WebPage",
-  "name":"MSCI World Index Investment Guide",
-  "description":"Educational research guide covering the MSCI World Index, historical performance, investment examples, diversification and risk.",
-  "about":{
-    "@type":"FinancialProduct",
-    "name":"MSCI World Index"
-  }
+  "@type":"WebSite",
+  "name":"MSCI World Index Guide",
+  "url":"https://gavs25.github.io/msci-world-index/",
+  "description":"Educational information about the MSCI World Index, historical performance, investment examples, diversification and risks."
 }
-
 </script>
 
 
 <script type="application/ld+json">
-
 {
   "@context":"https://schema.org",
   "@type":"FAQPage",
@@ -763,58 +47,1024 @@ footer a {
       "name":"What is the MSCI World Index?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"The MSCI World Index is an equity index designed to represent large and mid-cap companies across developed markets."
+        "text":"The MSCI World Index is an equity index designed to represent large and mid-cap companies across developed markets. It covers approximately 85% of the free-float-adjusted market capitalisation in each country."
       }
     },
 
     {
       "@type":"Question",
-      "name":"How many companies are in the MSCI World Index?",
+      "name":"Is MSCI World a fund?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"MSCI reported 1,282 constituents as of 31 July 2026."
+        "text":"No. MSCI World is an index rather than a single investment fund. Investors can gain exposure to the index through funds and exchange-traded products designed to track it."
       }
     },
 
     {
       "@type":"Question",
-      "name":"Can you invest directly in the MSCI World Index?",
+      "name":"How much could £100,000 invested in MSCI World be worth?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"The MSCI World Index itself is an index rather than a fund. Investors may obtain exposure through investment products such as funds or ETFs that track the index."
+        "text":"Historical examples can be calculated using published index returns, but actual investment results depend on the specific fund, fees, taxes, currency movements, dividends and tracking differences. Future returns cannot be predicted."
       }
     },
 
     {
       "@type":"Question",
-      "name":"What could £100,000 become over five years?",
+      "name":"Is MSCI World low risk?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"Future investment values cannot be known in advance. This website provides illustrative scenarios using different assumed annual rates of return."
+        "text":"No investment in global equities is risk free. The MSCI World Index has experienced substantial market declines in the past, including a maximum historical drawdown of approximately 57.82% in the period identified by MSCI."
       }
     },
 
     {
       "@type":"Question",
-      "name":"Is this investment advice?",
+      "name":"Does this website provide financial advice?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"No. This website provides general educational and research information and does not provide personal investment advice."
+        "text":"No. This website provides general educational and research information and does not provide personalised financial or investment advice."
       }
     }
 
   ]
 }
-
 </script>
 
+
+<style>
+
+/* =========================================================
+   RESET
+========================================================= */
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#080d16;
+    color:#f4f6fa;
+    line-height:1.7;
+}
+
+a{
+    color:inherit;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(8,13,22,0.96);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid #1d2938;
+}
+
+.header-inner{
+    max-width:1200px;
+    margin:auto;
+    padding:18px 24px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#d8ad4b;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#c8ced8;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#e5bc59;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+    min-height:720px;
+    display:flex;
+    align-items:center;
+    padding:80px 20px;
+    background:
+        radial-gradient(circle at 75% 20%,rgba(54,91,150,.30),transparent 35%),
+        radial-gradient(circle at 15% 60%,rgba(216,173,75,.12),transparent 30%),
+        linear-gradient(135deg,#09111e,#05080e);
+}
+
+.hero-inner{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:60px;
+    align-items:center;
+}
+
+.badge{
+    display:inline-block;
+    padding:8px 16px;
+    border:1px solid #46566b;
+    border-radius:50px;
+    color:#dfbd6b;
+    font-size:13px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:clamp(46px,6vw,76px);
+    line-height:1.05;
+    margin-bottom:25px;
+}
+
+.hero h1 span{
+    color:#d9ad4c;
+}
+
+.hero-text{
+    max-width:720px;
+}
+
+.hero p{
+    color:#c5ccd7;
+    font-size:19px;
+    max-width:680px;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.button{
+    display:inline-block;
+    padding:16px 28px;
+    border-radius:7px;
+    text-decoration:none;
+    font-weight:800;
+    font-size:15px;
+    transition:.25s;
+}
+
+.button-primary{
+    background:#d9ad4c;
+    color:#08101a;
+}
+
+.button-primary:hover{
+    transform:translateY(-2px);
+    background:#ebc66c;
+}
+
+.button-secondary{
+    border:1px solid #526175;
+    color:#fff;
+}
+
+.button-secondary:hover{
+    border-color:#d9ad4c;
+    color:#e4bd60;
+}
+
+.hero-note{
+    margin-top:18px;
+    font-size:12px;
+    color:#8e9aaa;
+}
+
+
+/* =========================================================
+   HERO GRAPH
+========================================================= */
+
+.market-card{
+    background:linear-gradient(145deg,#121d2d,#0b111c);
+    border:1px solid #26364a;
+    border-radius:22px;
+    padding:28px;
+    box-shadow:0 25px 70px rgba(0,0,0,.35);
+}
+
+.market-card-top{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:25px;
+}
+
+.market-card small{
+    color:#8996a8;
+}
+
+.market-value{
+    font-size:28px;
+    font-weight:bold;
+    color:#f0f3f8;
+}
+
+.chart{
+    width:100%;
+    height:260px;
+    background:
+        linear-gradient(to bottom,
+        transparent 24%,
+        #1d2a3a 25%,
+        transparent 26%,
+        transparent 49%,
+        #1d2a3a 50%,
+        transparent 51%,
+        transparent 74%,
+        #1d2a3a 75%,
+        transparent 76%);
+    position:relative;
+    overflow:hidden;
+    border-radius:12px;
+}
+
+.chart svg{
+    width:100%;
+    height:100%;
+}
+
+.chart-labels{
+    display:flex;
+    justify-content:space-between;
+    color:#6f7c8e;
+    font-size:11px;
+    margin-top:10px;
+}
+
+.market-foot{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+    padding-top:18px;
+    border-top:1px solid #253244;
+}
+
+.market-foot strong{
+    color:#dcb257;
+}
+
+
+/* =========================================================
+   STATS
+========================================================= */
+
+.stats{
+    background:#0d1521;
+    border-top:1px solid #1b2838;
+    border-bottom:1px solid #1b2838;
+    padding:30px 20px;
+}
+
+.stats-grid{
+    max-width:1150px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.stat{
+    text-align:center;
+    padding:15px;
+}
+
+.stat strong{
+    display:block;
+    font-size:28px;
+    color:#dfb653;
+}
+
+.stat span{
+    color:#8793a3;
+    font-size:13px;
+}
+
+
+/* =========================================================
+   GENERAL SECTIONS
+========================================================= */
+
+.section{
+    max-width:1150px;
+    margin:auto;
+    padding:90px 20px;
+}
+
+.section-title{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 55px;
+}
+
+.section-title h2{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#9da8b7;
+    font-size:17px;
+}
+
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+.about{
+    background:#0a1019;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.card{
+    background:#111b29;
+    border:1px solid #243346;
+    border-radius:16px;
+    padding:35px;
+}
+
+.card:hover{
+    border-color:#b18b3e;
+}
+
+.card h3{
+    font-size:24px;
+    margin-bottom:12px;
+}
+
+.card p{
+    color:#aab4c1;
+}
+
+.icon{
+    font-size:32px;
+    margin-bottom:18px;
+}
+
+
+/* =========================================================
+   PERFORMANCE
+========================================================= */
+
+.performance{
+    background:#f3f0e8;
+    color:#151a21;
+}
+
+.performance .section-title h2{
+    color:#151a21;
+}
+
+.performance .section-title p{
+    color:#5d6570;
+}
+
+.performance-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.performance-card{
+    background:#fff;
+    border:1px solid #ddd7ca;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 8px 30px rgba(0,0,0,.05);
+}
+
+.performance-card h3{
+    margin-bottom:20px;
+    font-size:22px;
+}
+
+.big-number{
+    font-size:46px;
+    font-weight:800;
+    color:#b08324;
+}
+
+.performance-card p{
+    color:#59606b;
+}
+
+.note{
+    margin-top:15px;
+    font-size:12px;
+    color:#747a83;
+}
+
+
+/* =========================================================
+   INVESTMENT EXAMPLES
+========================================================= */
+
+.examples{
+    background:#0d1521;
+}
+
+.examples-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.example{
+    background:#111b29;
+    border:1px solid #27374b;
+    border-radius:16px;
+    padding:30px;
+}
+
+.example h3{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.example .money{
+    font-size:35px;
+    font-weight:800;
+    color:#dfb653;
+    margin:15px 0;
+}
+
+.example p{
+    color:#a9b3c0;
+    font-size:14px;
+}
+
+.example-tag{
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+    background:#1d2b3d;
+    color:#cbb16c;
+    font-size:11px;
+    margin-bottom:10px;
+}
+
+
+/* =========================================================
+   YEAR TABLE
+========================================================= */
+
+.table-wrap{
+    overflow-x:auto;
+    margin-top:40px;
+}
+
+.performance-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#111b29;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.performance-table th,
+.performance-table td{
+    padding:14px 16px;
+    text-align:left;
+    border-bottom:1px solid #263547;
+}
+
+.performance-table th{
+    background:#172437;
+    color:#e0b85c;
+}
+
+.performance-table td{
+    color:#c0c8d3;
+}
+
+.positive{
+    color:#75cf9a !important;
+}
+
+.negative{
+    color:#ef7f7f !important;
+}
+
+
+/* =========================================================
+   FUTURE SCENARIOS
+========================================================= */
+
+.future{
+    background:#f3f0e8;
+    color:#171b21;
+}
+
+.scenario-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.scenario{
+    background:white;
+    border:1px solid #ddd8cc;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+}
+
+.scenario h3{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.scenario-rate{
+    color:#ad8023;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.scenario-value{
+    font-size:38px;
+    font-weight:800;
+    margin:15px 0;
+}
+
+.scenario p{
+    color:#626872;
+    font-size:13px;
+}
+
+
+/* =========================================================
+   CALCULATOR
+========================================================= */
+
+.calculator{
+    background:#09111d;
+}
+
+.calculator-box{
+    max-width:850px;
+    margin:auto;
+    background:#111c2a;
+    border:1px solid #2a3b50;
+    border-radius:18px;
+    padding:35px;
+}
+
+.inputs{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:7px;
+    color:#9faaba;
+    font-size:13px;
+}
+
+.input-group input{
+    width:100%;
+    padding:14px;
+    border-radius:7px;
+    border:1px solid #35475b;
+    background:#09111c;
+    color:#fff;
+    font-size:16px;
+}
+
+.calc-button{
+    margin-top:20px;
+    width:100%;
+    border:0;
+}
+
+.result{
+    margin-top:25px;
+    padding:25px;
+    background:#0a131f;
+    border-radius:12px;
+    text-align:center;
+}
+
+.result small{
+    color:#8794a4;
+}
+
+.result-value{
+    display:block;
+    color:#dfb653;
+    font-size:43px;
+    font-weight:800;
+    margin-top:5px;
+}
+
+
+/* =========================================================
+   DIVERSIFICATION
+========================================================= */
+
+.diversification{
+    background:#0b111b;
+}
+
+.exposure-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.exposure{
+    background:#121d2c;
+    border:1px solid #26364a;
+    border-radius:16px;
+    padding:30px;
+}
+
+.exposure h3{
+    margin-bottom:18px;
+}
+
+.bar{
+    height:12px;
+    background:#263548;
+    border-radius:20px;
+    margin:12px 0 20px;
+    overflow:hidden;
+}
+
+.bar span{
+    display:block;
+    height:100%;
+    background:#d5a946;
+    border-radius:20px;
+}
+
+.exposure p{
+    color:#9da9b8;
+    font-size:14px;
+}
+
+
+/* =========================================================
+   WHY INVESTORS CONSIDER IT
+========================================================= */
+
+.reasons{
+    background:#f3f0e8;
+    color:#171b21;
+}
+
+.reason-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.reason{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #ded8cb;
+}
+
+.reason h3{
+    margin-bottom:10px;
+}
+
+.reason p{
+    color:#616873;
+}
+
+
+/* =========================================================
+   RISKS
+========================================================= */
+
+.risks{
+    background:#0a1019;
+}
+
+.risk-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.risk{
+    border:1px solid #303e50;
+    background:#111a27;
+    border-radius:14px;
+    padding:25px;
+}
+
+.risk h3{
+    color:#e1bb62;
+    margin-bottom:8px;
+}
+
+.risk p{
+    color:#a8b2bf;
+    font-size:14px;
+}
+
+
+/* =========================================================
+   PAID GUIDE
+========================================================= */
+
+.offer{
+    background:
+        radial-gradient(circle at 50% 0%,rgba(213,169,70,.20),transparent 35%),
+        linear-gradient(135deg,#101b2a,#070b12);
+    text-align:center;
+    padding:100px 20px;
+}
+
+.offer-inner{
+    max-width:850px;
+    margin:auto;
+}
+
+.offer h2{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.offer p{
+    color:#aeb8c5;
+    font-size:17px;
+    max-width:680px;
+    margin:0 auto 30px;
+}
+
+.price{
+    font-size:58px;
+    font-weight:800;
+    color:#e0b653;
+    margin:15px 0;
+}
+
+.guide-features{
+    max-width:600px;
+    margin:30px auto;
+    text-align:left;
+    background:#101a27;
+    border:1px solid #2b3a4d;
+    border-radius:15px;
+    padding:28px;
+}
+
+.guide-features li{
+    list-style:none;
+    padding:9px 0;
+    color:#c6ced8;
+}
+
+.guide-features li::before{
+    content:"✓";
+    color:#dcb250;
+    font-weight:bold;
+    margin-right:10px;
+}
+
+.offer-note{
+    margin-top:20px;
+    color:#7f8b9a;
+    font-size:12px;
+}
+
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.faq-section{
+    background:#f3f0e8;
+    color:#171b21;
+}
+
+.faq{
+    max-width:850px;
+    margin:auto;
+}
+
+.faq-item{
+    background:white;
+    border:1px solid #ddd7ca;
+    border-radius:12px;
+    padding:24px;
+    margin-bottom:15px;
+}
+
+.faq-item h3{
+    margin-bottom:10px;
+}
+
+.faq-item p{
+    color:#626872;
+}
+
+
+/* =========================================================
+   SOURCES
+========================================================= */
+
+.sources{
+    background:#080d15;
+}
+
+.source-box{
+    max-width:850px;
+    margin:auto;
+    border:1px solid #263548;
+    background:#101925;
+    border-radius:15px;
+    padding:30px;
+}
+
+.source-box p{
+    color:#9da8b6;
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+
+/* =========================================================
+   DISCLAIMER
+========================================================= */
+
+.disclaimer{
+    background:#e5e1d7;
+    color:#4f555c;
+    padding:35px 20px;
+    font-size:13px;
+}
+
+.disclaimer-inner{
+    max-width:1000px;
+    margin:auto;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer{
+    background:#05070b;
+    color:#747e8b;
+    text-align:center;
+    padding:35px 20px;
+    font-size:13px;
+}
+
+footer a{
+    color:#dcb457;
+    text-decoration:none;
+    margin:0 8px;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:900px){
+
+    .hero-inner{
+        grid-template-columns:1fr;
+    }
+
+    .stats-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .about-grid,
+    .performance-grid,
+    .exposure-grid,
+    .risk-grid{
+        grid-template-columns:1fr;
+    }
+
+    .examples-grid,
+    .scenario-grid,
+    .reason-grid{
+        grid-template-columns:1fr;
+    }
+
+    .inputs{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:650px){
+
+    .header-inner{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav{
+        gap:12px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    nav a{
+        font-size:12px;
+    }
+
+    .hero{
+        padding:60px 20px;
+    }
+
+    .hero h1{
+        font-size:43px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+
+    .section{
+        padding:65px 20px;
+    }
+
+    .section-title h2{
+        font-size:34px;
+    }
+
+    .stats-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .stat strong{
+        font-size:22px;
+    }
+
+    .offer h2{
+        font-size:36px;
+    }
+
+}
+
+</style>
 </head>
 
 
 <body>
 
 
-<!-- HEADER -->
+<!-- =====================================================
+HEADER
+===================================================== -->
 
 <header>
 
@@ -830,13 +1080,13 @@ MSCI <span>WORLD</span>
 
 <a href="#performance">Performance</a>
 
-<a href="#examples">£100K</a>
+<a href="#examples">£100k Examples</a>
 
-<a href="#holdings">Holdings</a>
+<a href="#calculator">Calculator</a>
 
-<a href="#risk">Risk</a>
+<a href="#risks">Risks</a>
 
-<a href="#report">Full Report</a>
+<a href="#guide">Guide</a>
 
 </nav>
 
@@ -845,45 +1095,185 @@ MSCI <span>WORLD</span>
 </header>
 
 
-<!-- HERO -->
+
+<!-- =====================================================
+HERO
+===================================================== -->
 
 <section class="hero">
 
-<div class="container">
+<div class="hero-inner">
 
-<div class="hero-content">
+
+<div class="hero-text">
 
 <div class="badge">
-Global Equity Research • MSCI World Index
+Global Equity Research Guide
 </div>
 
 <h1>
 Understand the
-<span>MSCI World Index</span>
-Before You Invest
+<span>MSCI World</span>
+Index
 </h1>
 
 <p>
-Explore how the MSCI World Index works, its historical performance,
-global diversification, major holdings, risks and what different
-investment-return scenarios could mean for a £100,000 portfolio.
+A professional educational guide to one of the world's
+best-known developed-market equity indexes — including
+historical performance, diversification, risk, £100,000
+investment examples and future-value scenarios.
 </p>
+
 
 <div class="hero-buttons">
 
-<a href="#examples" class="button button-primary">
-Explore £100,000 Examples
+<a href="#guide" class="button button-primary">
+GET THE £10 GUIDE →
 </a>
 
 <a href="#performance" class="button button-secondary">
-View Performance
+EXPLORE PERFORMANCE
 </a>
 
 </div>
 
-<div class="data-date">
-Current index characteristics shown using MSCI data dated
-31 July 2026.
+
+<div class="hero-note">
+Educational information only. Past performance is not a guarantee
+of future results.
+</div>
+
+</div>
+
+
+
+<!-- MARKET CARD -->
+
+<div class="market-card">
+
+<div class="market-card-top">
+
+<div>
+
+<small>
+MSCI World Index
+</small>
+
+<div class="market-value">
+Global Developed Markets
+</div>
+
+</div>
+
+<div>
+<span style="color:#dcb457;font-weight:bold;">
+MSCI
+</span>
+</div>
+
+</div>
+
+
+<div class="chart">
+
+<svg viewBox="0 0 600 260"
+preserveAspectRatio="none">
+
+<defs>
+
+<linearGradient id="goldLine"
+x1="0"
+x2="0"
+y1="0"
+y2="1">
+
+<stop offset="0%"
+stop-color="#dfb653"
+stop-opacity=".35"/>
+
+<stop offset="100%"
+stop-color="#dfb653"
+stop-opacity="0"/>
+
+</linearGradient>
+
+</defs>
+
+
+<path
+d="M0 215
+C35 200 45 205 70 190
+C100 175 115 190 140 165
+C165 140 185 160 210 135
+C235 110 255 125 280 105
+C305 85 325 100 350 80
+C375 62 395 76 420 55
+C445 40 465 55 490 38
+C520 20 545 32 600 10
+L600 260
+L0 260 Z"
+fill="url(#goldLine)"
+/>
+
+
+<path
+d="M0 215
+C35 200 45 205 70 190
+C100 175 115 190 140 165
+C165 140 185 160 210 135
+C235 110 255 125 280 105
+C305 85 325 100 350 80
+C375 62 395 76 420 55
+C445 40 465 55 490 38
+C520 20 545 32 600 10"
+fill="none"
+stroke="#dfb653"
+stroke-width="5"
+stroke-linecap="round"
+/>
+
+</svg>
+
+</div>
+
+
+<div class="chart-labels">
+
+<span>Historical</span>
+
+<span>Market cycles</span>
+
+<span>Long term</span>
+
+</div>
+
+
+<div class="market-foot">
+
+<div>
+<small>
+Index type
+</small>
+<br>
+<strong>Equity</strong>
+</div>
+
+<div>
+<small>
+Markets
+</small>
+<br>
+<strong>Developed</strong>
+</div>
+
+<div>
+<small>
+Style
+</small>
+<br>
+<strong>Large & Mid Cap</strong>
+</div>
+
 </div>
 
 </div>
@@ -893,64 +1283,55 @@ Current index characteristics shown using MSCI data dated
 </section>
 
 
-<!-- STATISTICS -->
+
+<!-- =====================================================
+STATS
+===================================================== -->
 
 <section class="stats">
-
-<div class="container">
 
 <div class="stats-grid">
 
 <div class="stat">
 
-<div class="stat-number">
-1,282
-</div>
+<strong>23</strong>
 
-<div class="stat-label">
-Index constituents
-</div>
+<span>
+Developed-market countries
+</span>
 
 </div>
 
 
 <div class="stat">
 
-<div class="stat-number">
-23
-</div>
+<strong>~85%</strong>
 
-<div class="stat-label">
-Developed markets
-</div>
+<span>
+Free-float market coverage per country
+</span>
 
 </div>
 
 
 <div class="stat">
 
-<div class="stat-number">
-$89.52T
-</div>
+<strong>1,300+</strong>
 
-<div class="stat-label">
-Index market capitalisation
-</div>
+<span>
+Approximate constituents in recent MSCI data
+</span>
 
 </div>
 
 
 <div class="stat">
 
-<div class="stat-number">
-57.82%
-</div>
+<strong>1986</strong>
 
-<div class="stat-label">
-Historical maximum drawdown
-</div>
-
-</div>
+<span>
+MSCI World Index launch year
+</span>
 
 </div>
 
@@ -959,11 +1340,14 @@ Historical maximum drawdown
 </section>
 
 
-<!-- ABOUT -->
 
-<section class="intro" id="about">
+<!-- =====================================================
+ABOUT
+===================================================== -->
 
-<div class="container">
+<section class="about" id="about">
+
+<div class="section">
 
 <div class="section-title">
 
@@ -972,31 +1356,28 @@ What Is the MSCI World Index?
 </h2>
 
 <p>
-A straightforward explanation of one of the world's most widely
-followed developed-market equity indexes.
+Understand what MSCI World actually represents before
+considering any investment product that tracks it.
 </p>
 
 </div>
 
 
-<div class="intro-grid">
+<div class="about-grid">
 
-<div class="card highlight">
+
+<div class="card">
+
+<div class="icon">🌎</div>
 
 <h3>
-A Global Developed-Market Index
+Global Developed-Market Exposure
 </h3>
 
 <p>
-The MSCI World Index captures large and mid-cap companies across
-developed markets. MSCI states that the index covers approximately
-85% of the free-float-adjusted market capitalisation in each country.
-</p>
-
-<p>
-The index is not itself an investment fund. Investors can obtain
-exposure through funds and exchange-traded products designed to
-track the index.
+The MSCI World Index is designed to represent large and
+mid-cap companies across developed markets. It is a widely
+used benchmark for global developed-market equities.
 </p>
 
 </div>
@@ -1004,19 +1385,50 @@ track the index.
 
 <div class="card">
 
+<div class="icon">📊</div>
+
 <h3>
-Why Investors Study It
+An Index — Not One Fund
 </h3>
 
 <p>
-Instead of relying on the performance of one company or one country,
-the MSCI World Index provides a broad way of measuring developed-market
-equity performance.
+MSCI World itself is an index. Investors cannot buy the
+index directly. Instead, funds and exchange-traded products
+can be designed to track its performance.
 </p>
 
+</div>
+
+
+<div class="card">
+
+<div class="icon">🏢</div>
+
+<h3>
+Thousands of Companies Over Time
+</h3>
+
 <p>
-However, diversification does not remove investment risk. The index
-has experienced substantial declines during previous market downturns.
+The index provides exposure to a broad collection of large
+and mid-sized companies rather than relying on a single
+company or market.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">⚖️</div>
+
+<h3>
+Market-Capitalisation Weighted
+</h3>
+
+<p>
+Larger companies have greater representation within the
+index. This means the index can become significantly
+influenced by the world's largest businesses.
 </p>
 
 </div>
@@ -1028,11 +1440,14 @@ has experienced substantial declines during previous market downturns.
 </section>
 
 
-<!-- PERFORMANCE -->
+
+<!-- =====================================================
+PERFORMANCE
+===================================================== -->
 
 <section class="performance" id="performance">
 
-<div class="container">
+<div class="section">
 
 <div class="section-title">
 
@@ -1041,8 +1456,9 @@ MSCI World Performance
 </h2>
 
 <p>
-Historical performance can help investors understand what has happened
-in the past, but it cannot predict future returns.
+Historical performance can help explain how the index has
+behaved through different market environments. It cannot
+predict what happens next.
 </p>
 
 </div>
@@ -1054,20 +1470,22 @@ in the past, but it cannot predict future returns.
 <div class="performance-card">
 
 <h3>
-One-Year Historical Return
+Recent 5-Year Annualised Return
 </h3>
 
 <div class="big-number">
-18.86%
+≈ 11.8%
 </div>
 
 <p>
-MSCI World total return for the one-year period to
-31 July 2026, as reported by Morningstar/Janus Henderson.
+MSCI's April 2026 factsheet reported an annualised gross
+return of approximately 11.8% over the preceding five years.
 </p>
 
-<div class="small-note">
-Historical result. Not a forecast.
+<div class="note">
+Illustrative index figure. A specific investment fund may
+produce different results because of fees, taxes, tracking
+difference and other factors.
 </div>
 
 </div>
@@ -1076,220 +1494,236 @@ Historical result. Not a forecast.
 <div class="performance-card">
 
 <h3>
-Five-Year Annualised Return
+Recent 1-Year Return
 </h3>
 
 <div class="big-number">
-12.43%
+≈ 21.9%
 </div>
 
 <p>
-MSCI World total return annualised over five years to
-31 July 2026.
+MSCI's July 2026 index data showed a one-year return of
+approximately 21.9%.
 </p>
 
-<div class="small-note">
-Historical annualised return. Not a guaranteed future return.
+<div class="note">
+The precise result depends on the measurement date and
+whether price, gross or net returns are being considered.
 </div>
 
 </div>
 
 
-<div class="performance-card">
+</div>
 
-<h3>
-Five-Year Volatility
+
+
+<!-- YEAR TABLE -->
+
+<h3 style="margin-top:65px;text-align:center;">
+Selected Annual MSCI World Gross Returns
 </h3>
 
-<div class="big-number">
-15.21%
+
+<div class="table-wrap">
+
+<table class="performance-table">
+
+<thead>
+
+<tr>
+
+<th>Year</th>
+
+<th>MSCI World</th>
+
+<th>Market environment</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>2025</td>
+<td class="positive">+21.60%</td>
+<td>Strong global equity performance</td>
+</tr>
+
+<tr>
+<td>2024</td>
+<td class="positive">+19.19%</td>
+<td>Strong developed-market equities</td>
+</tr>
+
+<tr>
+<td>2023</td>
+<td class="positive">+24.42%</td>
+<td>Major recovery year</td>
+</tr>
+
+<tr>
+<td>2022</td>
+<td class="negative">−17.73%</td>
+<td>Major global equity decline</td>
+</tr>
+
+<tr>
+<td>2021</td>
+<td class="positive">+22.35%</td>
+<td>Strong rebound</td>
+</tr>
+
+<tr>
+<td>2020</td>
+<td class="positive">+16.50%</td>
+<td>High volatility and recovery</td>
+</tr>
+
+<tr>
+<td>2019</td>
+<td class="positive">+28.40%</td>
+<td>Strong equity year</td>
+</tr>
+
+<tr>
+<td>2018</td>
+<td class="negative">−8.20%</td>
+<td>Market decline</td>
+</tr>
+
+<tr>
+<td>2017</td>
+<td class="positive">+23.07%</td>
+<td>Strong global equities</td>
+</tr>
+
+</tbody>
+
+</table>
+
 </div>
 
-<p>
-MSCI World annualised standard deviation over five years,
-using the MSCI risk-and-return data.
+
+<p class="note" style="text-align:center;margin-top:20px;">
+Historical figures shown above are MSCI World gross index returns
+published by MSCI. They are not the returns of a particular fund.
 </p>
-
-<div class="small-note">
-Risk measure based on historical monthly returns.
-</div>
-
-</div>
-
-
-<div class="performance-card">
-
-<h3>
-Historical Maximum Drawdown
-</h3>
-
-<div class="big-number">
-57.82%
-</div>
-
-<p>
-The MSCI World Index's reported maximum drawdown occurred
-during the global financial crisis period.
-</p>
-
-<div class="small-note">
-31 October 2007 to 9 March 2009.
-</div>
-
-</div>
-
-</div>
-
-
-<!-- ORIGINAL CHART -->
-
-<div class="chart-box">
-
-<div class="chart-title">
-Illustrative £100,000 Growth at Different Annual Returns
-</div>
-
-<p class="small-note">
-This is an original scenario chart, not historical MSCI performance.
-It shows what £100,000 would become after five years if a constant
-annual return were achieved.
-</p>
-
-<div class="chart">
-
-<div class="bar" style="height:38%;">
-<span>£115.9K</span>
-</div>
-
-<div class="bar" style="height:46%;">
-<span>£127.6K</span>
-</div>
-
-<div class="bar" style="height:55%;">
-<span>£140.3K</span>
-</div>
-
-<div class="bar" style="height:68%;">
-<span>£161.1K</span>
-</div>
-
-<div class="bar" style="height:80%;">
-<span>£177.2K</span>
-</div>
-
-<div class="bar" style="height:100%;">
-<span>£194.9K</span>
-</div>
-
-</div>
-
-<div class="chart-labels">
-
-<div>3%</div>
-
-<div>5%</div>
-
-<div>7%</div>
-
-<div>10%</div>
-
-<div>12%</div>
-
-<div>14%</div>
-
-</div>
-
-</div>
-
 
 </div>
 
 </section>
 
 
-<!-- £100K EXAMPLES -->
+
+<!-- =====================================================
+£100,000 EXAMPLES
+===================================================== -->
 
 <section class="examples" id="examples">
 
-<div class="container">
+<div class="section">
 
 <div class="section-title">
 
 <h2>
-What About £100,000?
+What Could £100,000 Have Become?
 </h2>
 
 <p>
-One of the easiest ways to understand investment performance is to
-translate percentage returns into pounds.
+These examples show how published index returns can be used
+to illustrate investment growth. They are not personalised
+investment projections.
 </p>
 
 </div>
 
 
-<div class="example-grid">
+<div class="examples-grid">
 
 
-<div class="example-card">
+<div class="example">
+
+<div class="example-tag">
+5-YEAR ILLUSTRATION
+</div>
 
 <h3>
-£100,000 Invested One Year Ago
+£100,000 invested 5 years ago
 </h3>
 
-<div class="example-value">
-£118,860
+<div class="money">
+≈ £174,823
 </div>
 
 <p>
-Using the reported 18.86% MSCI World total return for the
-one-year period to 31 July 2026.
+Illustration using an annualised return of approximately
+11.82% compounded over five years.
 </p>
 
-<p class="small-note">
-Illustrative index calculation before fund charges, taxes,
-platform costs and other investor-specific costs.
+<p style="margin-top:15px;">
+This assumes the entire amount experienced the stated index
+return and ignores fund charges, taxes, trading costs and
+currency effects.
 </p>
 
 </div>
 
 
-<div class="example-card">
+<div class="example">
+
+<div class="example-tag">
+1-YEAR ILLUSTRATION
+</div>
 
 <h3>
-£100,000 Invested Five Years Ago
+£100,000 invested 1 year ago
 </h3>
 
-<div class="example-value">
-£179,643
+<div class="money">
+≈ £121,870
 </div>
 
 <p>
-Using the reported 12.43% annualised MSCI World total return
-over five years.
+Illustration using an approximately 21.87% one-year index
+return.
 </p>
 
-<p class="small-note">
-Calculated as £100,000 × (1.1243)^5. This is an index-based
-illustration, not the return of a specific fund.
+<p style="margin-top:15px;">
+The example is based on an index measurement period and does
+not represent the return of a specific investment product.
 </p>
 
 </div>
 
 
+<div class="example">
+
+<div class="example-tag">
+IMPORTANT
 </div>
-
-
-<div class="card" style="margin-top:25px;">
 
 <h3>
-Why These Figures Are Only Illustrations
+What about £100,000 today?
 </h3>
 
+<div class="money">
+No guaranteed answer
+</div>
+
 <p>
-A real investor's outcome can differ because an actual fund or ETF
-may have charges, tracking differences, taxes, dealing costs and
-currency effects. The MSCI World Index itself is not a fund.
+Nobody knows what the MSCI World Index will return over the
+next five years.
 </p>
+
+<p style="margin-top:15px;">
+Instead, we can examine several hypothetical return scenarios
+to understand the mathematics of compounding.
+</p>
+
+</div>
+
 
 </div>
 
@@ -1298,20 +1732,127 @@ currency effects. The MSCI World Index itself is not a fund.
 </section>
 
 
-<!-- CALCULATOR -->
 
-<section class="calculator">
+<!-- =====================================================
+FUTURE SCENARIOS
+===================================================== -->
 
-<div class="container">
+<section class="future">
+
+<div class="section">
 
 <div class="section-title">
 
 <h2>
-£100,000 Future Value Calculator
+If £100,000 Were Invested Today
 </h2>
 
 <p>
-Explore hypothetical outcomes using different annual return assumptions.
+Purely mathematical five-year scenarios. These are NOT
+forecasts or promises of investment performance.
+</p>
+
+</div>
+
+
+<div class="scenario-grid">
+
+
+<div class="scenario">
+
+<h3>
+Lower Scenario
+</h3>
+
+<div class="scenario-rate">
+5% per year
+</div>
+
+<div class="scenario-value">
+£127,628
+</div>
+
+<p>
+£100,000 compounded annually at 5% for five years.
+</p>
+
+</div>
+
+
+<div class="scenario">
+
+<h3>
+Middle Scenario
+</h3>
+
+<div class="scenario-rate">
+8% per year
+</div>
+
+<div class="scenario-value">
+£146,933
+</div>
+
+<p>
+£100,000 compounded annually at 8% for five years.
+</p>
+
+</div>
+
+
+<div class="scenario">
+
+<h3>
+Higher Scenario
+</h3>
+
+<div class="scenario-rate">
+10% per year
+</div>
+
+<div class="scenario-value">
+£161,051
+</div>
+
+<p>
+£100,000 compounded annually at 10% for five years.
+</p>
+
+</div>
+
+
+</div>
+
+
+<p class="note" style="text-align:center;margin-top:30px;">
+These scenarios are mathematical examples only. Actual
+investment returns can be negative as well as positive.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+CALCULATOR
+===================================================== -->
+
+<section class="calculator" id="calculator">
+
+<div class="section">
+
+<div class="section-title">
+
+<h2>
+MSCI World Investment Calculator
+</h2>
+
+<p>
+Change the starting amount, assumed annual return and
+investment period to see the mathematical effect of
+compound growth.
 </p>
 
 </div>
@@ -1319,17 +1860,18 @@ Explore hypothetical outcomes using different annual return assumptions.
 
 <div class="calculator-box">
 
-<div class="form-row">
+<div class="inputs">
 
-<div>
 
-<label for="amount">
+<div class="input-group">
+
+<label>
 Starting investment (£)
 </label>
 
 <input
+id="investment"
 type="number"
-id="amount"
 value="100000"
 min="1"
 >
@@ -1337,15 +1879,31 @@ min="1"
 </div>
 
 
-<div>
+<div class="input-group">
 
-<label for="years">
-Investment period (years)
+<label>
+Assumed annual return (%)
 </label>
 
 <input
+id="returnRate"
 type="number"
+value="8"
+step="0.1"
+>
+
+</div>
+
+
+<div class="input-group">
+
+<label>
+Years
+</label>
+
+<input
 id="years"
+type="number"
 value="5"
 min="1"
 max="50"
@@ -1353,50 +1911,38 @@ max="50"
 
 </div>
 
-</div>
-
-
-<div style="margin-top:20px;">
-
-<label for="rate">
-Illustrative annual return
-</label>
-
-<select id="rate">
-
-<option value="3">3%</option>
-
-<option value="5">5%</option>
-
-<option value="7" selected>7%</option>
-
-<option value="10">10%</option>
-
-<option value="12">12%</option>
-
-<option value="14">14%</option>
-
-</select>
 
 </div>
+
+
+<button
+class="button button-primary calc-button"
+onclick="calculateInvestment()"
+>
+CALCULATE FUTURE VALUE
+</button>
 
 
 <div class="result">
 
-<div>
+<small>
 Illustrative future value
+</small>
+
+<span
+class="result-value"
+id="result"
+>
+£146,933
+</span>
+
 </div>
 
-<div class="result-value" id="result">
-£140,255
-</div>
 
-<p class="small-note">
-This is a mathematical scenario only. It is not a prediction,
-recommendation or guarantee of investment performance.
+<p class="note" style="text-align:center;">
+This calculator does not predict investment returns and does
+not include fees, taxes, inflation or other investment costs.
 </p>
-
-</div>
 
 </div>
 
@@ -1405,246 +1951,103 @@ recommendation or guarantee of investment performance.
 </section>
 
 
-<!-- HOLDINGS -->
 
-<section class="holdings" id="holdings">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>
-Major MSCI World Holdings
-</h2>
-
-<p>
-The index is weighted by free-float-adjusted market capitalisation,
-meaning the largest companies can represent significant portions
-of the index.
-</p>
-
-</div>
-
-
-<div class="holdings-grid">
-
-
-<div class="holding">
-
-<div class="holding-name">
-NVIDIA
-</div>
-
-<div class="holding-weight">
-5.18%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Apple
-</div>
-
-<div class="holding-weight">
-5.07%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Microsoft
-</div>
-
-<div class="holding-weight">
-3.66%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Amazon
-</div>
-
-<div class="holding-weight">
-2.94%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Alphabet A
-</div>
-
-<div class="holding-weight">
-2.32%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Broadcom
-</div>
-
-<div class="holding-weight">
-1.96%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Alphabet C
-</div>
-
-<div class="holding-weight">
-1.84%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Meta Platforms
-</div>
-
-<div class="holding-weight">
-1.37%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-JPMorgan Chase
-</div>
-
-<div class="holding-weight">
-1.05%
-</div>
-
-</div>
-
-
-<div class="holding">
-
-<div class="holding-name">
-Micron Technology
-</div>
-
-<div class="holding-weight">
-1.04%
-</div>
-
-</div>
-
-
-</div>
-
-
-<p class="small-note" style="margin-top:25px;text-align:center;">
-Top holdings shown using MSCI data dated 31 July 2026.
-Weights change over time.
-</p>
-
-</div>
-
-</section>
-
-
-<!-- DIVERSIFICATION -->
+<!-- =====================================================
+DIVERSIFICATION
+===================================================== -->
 
 <section class="diversification">
 
-<div class="container">
+<div class="section">
 
 <div class="section-title">
 
 <h2>
-Global Diversification
+Why Investors Look at MSCI World
 </h2>
 
 <p>
-MSCI World provides exposure to developed-market equity markets
-rather than concentrating on a single country.
+The appeal of a developed-market global index is largely
+connected to diversification and long-term equity exposure.
 </p>
 
 </div>
 
 
-<div class="info-grid">
+<div class="exposure-grid">
 
 
-<div class="info-card">
-
-<div class="icon">
-🌎
-</div>
+<div class="exposure">
 
 <h3>
-23 Developed Markets
+🌎 Developed Markets
 </h3>
 
 <p>
-The MSCI World Index covers large and mid-cap companies across
-23 developed markets.
+The index is designed around developed-market economies
+rather than emerging markets.
+</p>
+
+<div class="bar">
+<span style="width:85%;"></span>
+</div>
+
+<p>
+Approximately 85% of each country's free-float-adjusted
+market capitalisation is represented.
 </p>
 
 </div>
 
 
-<div class="info-card">
-
-<div class="icon">
-🏢
-</div>
+<div class="exposure">
 
 <h3>
-Large & Mid Cap
+🏢 Large & Mid-Cap Companies
 </h3>
 
 <p>
-The index focuses on large- and mid-cap companies and aims to
-represent approximately 85% of each country's free-float-adjusted
-market capitalisation.
+The index focuses on large and mid-cap companies within
+the markets it covers.
+</p>
+
+<div class="bar">
+<span style="width:72%;"></span>
+</div>
+
+<p>
+The exact number and composition of constituents changes
+over time as markets and index methodology change.
 </p>
 
 </div>
 
 
-<div class="info-card">
-
-<div class="icon">
-📊
-</div>
+<div class="exposure">
 
 <h3>
-Market-Cap Weighted
+🇺🇸 Significant US Exposure
 </h3>
 
 <p>
-Larger companies generally have greater index weights, which means
-the index can become concentrated in its largest companies.
+Because the United States represents a very large share of
+global developed-market equity capitalisation, the MSCI World
+Index has historically had substantial US exposure.
+</p>
+
+</div>
+
+
+<div class="exposure">
+
+<h3>
+🔄 Index Rebalancing
+</h3>
+
+<p>
+Index constituents and weights can change over time.
+Investors should therefore understand that today's
+composition is not necessarily tomorrow's composition.
 </p>
 
 </div>
@@ -1657,11 +2060,87 @@ the index can become concentrated in its largest companies.
 </section>
 
 
-<!-- RISK -->
 
-<section class="risk" id="risk">
+<!-- =====================================================
+REASONS
+===================================================== -->
 
-<div class="container">
+<section class="reasons">
+
+<div class="section">
+
+<div class="section-title">
+
+<h2>
+Potential Advantages
+</h2>
+
+<p>
+Reasons investors may consider products that track developed
+global equity indexes.
+</p>
+
+</div>
+
+
+<div class="reason-grid">
+
+
+<div class="reason">
+
+<h3>
+Diversification</h3>
+
+<p>
+Exposure is spread across many companies and developed
+markets rather than concentrating the entire investment in
+one company.
+</p>
+
+</div>
+
+
+<div class="reason">
+
+<h3>
+Long-Term Approach</h3>
+
+<p>
+Global equity indexes are commonly used by investors seeking
+long-term exposure to company growth and economic activity.
+</p>
+
+</div>
+
+
+<div class="reason">
+
+<h3>
+Simple Benchmark</h3>
+
+<p>
+MSCI World provides a widely recognised benchmark against
+which certain global equity investment products can be compared.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+RISKS
+===================================================== -->
+
+<section class="risks" id="risks">
+
+<div class="section">
 
 <div class="section-title">
 
@@ -1670,8 +2149,8 @@ The Risks You Need to Understand
 </h2>
 
 <p>
-A professional investment analysis should explain both potential
-returns and potential losses.
+A professional investment guide must discuss the downside as
+well as the potential upside.
 </p>
 
 </div>
@@ -1680,57 +2159,82 @@ returns and potential losses.
 <div class="risk-grid">
 
 
-<div class="risk-card warning">
+<div class="risk">
 
 <h3>
-Market Risk
-</h3>
+Market Risk</h3>
 
 <p>
-Share prices can fall substantially. A diversified global index
-can still experience significant declines.
+Global equity markets can fall sharply. The value of an
+investment tracking MSCI World can decline substantially.
 </p>
 
 </div>
 
 
-<div class="risk-card">
+<div class="risk">
 
 <h3>
-Currency Risk
-</h3>
+Large Drawdowns</h3>
 
 <p>
-A UK investor's actual return can be affected by movements between
-sterling and the currencies of the underlying investments.
+MSCI reports a historical maximum drawdown of approximately
+57.82% for the index during the global financial crisis period.
 </p>
 
 </div>
 
 
-<div class="risk-card">
+<div class="risk">
 
 <h3>
-Concentration Risk
-</h3>
+Currency Risk</h3>
 
 <p>
-Although the index contains many companies, the largest companies
-can account for meaningful portions of the total index.
+For a UK investor, the return in pounds can differ from the
+return of a USD-denominated index because exchange rates
+change.
 </p>
 
 </div>
 
 
-<div class="risk-card">
+<div class="risk">
 
 <h3>
-Fund Tracking Risk
-</h3>
+Fund Costs</h3>
 
 <p>
-An ETF or fund tracking MSCI World may not exactly match the index
-because of fees, taxes, transaction costs and tracking differences.
+An actual ETF or fund tracking the index can have ongoing
+charges and tracking differences which reduce the return
+relative to the index.
+</p>
+
+</div>
+
+
+<div class="risk">
+
+<h3>
+No Guaranteed Return</h3>
+
+<p>
+Past performance does not guarantee future performance.
+Future five-year returns could be considerably higher or
+lower than historical averages — including negative.
+</p>
+
+</div>
+
+
+<div class="risk">
+
+<h3>
+Inflation</h3>
+
+<p>
+A nominal investment gain does not necessarily mean an
+increase in purchasing power after inflation.
 </p>
 
 </div>
@@ -1743,74 +2247,100 @@ because of fees, taxes, transaction costs and tracking differences.
 </section>
 
 
-<!-- PREMIUM REPORT -->
 
-<section class="premium" id="report">
+<!-- =====================================================
+PAID GUIDE
+===================================================== -->
 
-<div class="container">
+<section class="offer" id="guide">
 
-<div class="premium-box">
+<div class="offer-inner">
 
 <div class="badge">
-Premium Research Report
+Professional Edition
 </div>
 
+
 <h2>
-The Complete MSCI World Investment Report
+The Complete MSCI World Guide
 </h2>
 
+
 <p>
-Go beyond the free guide with a detailed downloadable research
-report covering the MSCI World Index, historical performance,
-investment examples, risk analysis and future-value scenarios.
+Get the detailed digital research guide covering the MSCI
+World Index, historical performance, investment examples,
+risk, diversification and the mathematics of long-term
+compounding.
 </p>
 
 
-<div class="premium-price">
+<div class="price">
 £10
 </div>
 
 
-<ul class="premium-list">
+<ul class="guide-features">
 
-<li>✓ Detailed MSCI World Index explanation</li>
+<li>
+What the MSCI World Index actually is
+</li>
 
-<li>✓ Historical performance analysis</li>
+<li>
+How the index is constructed
+</li>
 
-<li>✓ £100,000 one-year and five-year examples</li>
+<li>
+Developed markets and diversification
+</li>
 
-<li>✓ 5-year, 10-year and 20-year scenario analysis</li>
+<li>
+Historical annual performance
+</li>
 
-<li>✓ Original charts and tables</li>
+<li>
+£100,000 five-year investment example
+</li>
 
-<li>✓ Major holdings and diversification analysis</li>
+<li>
+£100,000 one-year investment example
+</li>
 
-<li>✓ Risk and drawdown analysis</li>
+<li>
+Five-year future-value scenarios
+</li>
 
-<li>✓ Investment-growth calculations</li>
+<li>
+Compound-growth calculations
+</li>
 
-<li>✓ Methodology and sources</li>
+<li>
+Major risks and historical drawdowns
+</li>
 
-<li>✓ Professional investment-risk disclosures</li>
+<li>
+Questions to consider before investing
+</li>
 
 </ul>
 
 
-<!-- STRIPE PLACEHOLDER -->
+<!--
+REPLACE THIS LINK WITH YOUR STRIPE PAYMENT LINK
+-->
 
 <a
-href="YOUR_NEW_STRIPE_PAYMENT_LINK"
+href="YOUR_STRIPE_PAYMENT_LINK_HERE"
 class="button button-primary"
 target="_blank"
-rel="noopener noreferrer"
+rel="noopener"
 >
-GET THE FULL REPORT FOR £10 →
+GET THE COMPLETE GUIDE FOR £10 →
 </a>
 
 
-<p class="small-note" style="margin-top:20px;">
-Secure payment. Digital PDF report supplied after purchase.
-</p>
+<div class="offer-note">
+
+One-time digital purchase • Educational research guide • PDF
 
 </div>
 
@@ -1819,11 +2349,14 @@ Secure payment. Digital PDF report supplied after purchase.
 </section>
 
 
-<!-- FAQ -->
 
-<section class="faq" id="faq">
+<!-- =====================================================
+FAQ
+===================================================== -->
 
-<div class="container">
+<section class="faq-section">
+
+<div class="section">
 
 <div class="section-title">
 
@@ -1832,13 +2365,14 @@ MSCI World Frequently Asked Questions
 </h2>
 
 <p>
-Common questions about the index, performance and investment examples.
+Important questions to understand before researching
+an MSCI World investment.
 </p>
 
 </div>
 
 
-<div class="faq-list">
+<div class="faq">
 
 
 <div class="faq-item">
@@ -1848,10 +2382,8 @@ What is the MSCI World Index?
 </h3>
 
 <p>
-The MSCI World Index is an equity index covering large and mid-cap
-companies across developed markets. MSCI states that it covers
-approximately 85% of free-float-adjusted market capitalisation
-within each country.
+The MSCI World Index is an equity index covering large and
+mid-cap companies across developed markets.
 </p>
 
 </div>
@@ -1860,12 +2392,12 @@ within each country.
 <div class="faq-item">
 
 <h3>
-Is MSCI World an investment fund?
+Is MSCI World a fund?
 </h3>
 
 <p>
-No. MSCI World is an index. Investors can obtain exposure through
-funds and ETFs that track the index.
+No. MSCI World is an index. Funds and exchange-traded
+products can be created to track the index.
 </p>
 
 </div>
@@ -1874,12 +2406,14 @@ funds and ETFs that track the index.
 <div class="faq-item">
 
 <h3>
-How many companies are in MSCI World?
+Can I invest £100,000 in MSCI World?
 </h3>
 
 <p>
-MSCI reported 1,282 constituents as of 31 July 2026. The number
-can change as companies enter or leave the index.
+An investor can potentially obtain exposure to the index
+through an eligible investment product, subject to the
+investor's circumstances, provider requirements and the
+product selected.
 </p>
 
 </div>
@@ -1888,14 +2422,13 @@ can change as companies enter or leave the index.
 <div class="faq-item">
 
 <h3>
-What happened to £100,000 invested five years ago?
+Could £100,000 become £200,000?
 </h3>
 
 <p>
-Using the reported 12.43% annualised MSCI World total return over
-the five-year period to 31 July 2026, £100,000 would mathematically
-grow to approximately £179,643 before considering fund charges,
-taxes, platform costs and other investor-specific factors.
+It is mathematically possible for an investment to double,
+but there is no guarantee that it will. The time required
+depends on the actual returns achieved.
 </p>
 
 </div>
@@ -1908,9 +2441,10 @@ What could £100,000 be worth in five years?
 </h3>
 
 <p>
-Nobody can know the future return of the MSCI World Index.
-The calculator on this website therefore uses hypothetical annual
-return assumptions to demonstrate how compounding works.
+Nobody knows the future value. The website therefore uses
+hypothetical scenarios such as 5%, 8% and 10% annual growth
+to demonstrate compound mathematics rather than making a
+forecast.
 </p>
 
 </div>
@@ -1919,13 +2453,13 @@ return assumptions to demonstrate how compounding works.
 <div class="faq-item">
 
 <h3>
-Is this website financial advice?
+Is this financial advice?
 </h3>
 
 <p>
-No. This website provides general educational and research
-information only. It does not assess your personal circumstances,
-recommend a specific investment or provide personal financial advice.
+No. This website and the downloadable guide are intended for
+general educational and research purposes and are not
+personalised financial advice.
 </p>
 
 </div>
@@ -1938,36 +2472,81 @@ recommend a specific investment or provide personal financial advice.
 </section>
 
 
-<!-- DISCLAIMER -->
+
+<!-- =====================================================
+SOURCES
+===================================================== -->
+
+<section class="sources">
+
+<div class="section">
+
+<div class="section-title">
+
+<h2>
+Research & Data Sources
+</h2>
+
+<p>
+The website uses publicly available index information and
+clearly identifies historical figures as historical data.
+</p>
+
+</div>
+
+
+<div class="source-box">
+
+<p>
+<strong>Primary source:</strong> MSCI — MSCI World Index
+official index information and factsheets.
+</p>
+
+<p>
+<strong>Historical performance:</strong> MSCI-published
+gross, net and price return data.
+</p>
+
+<p>
+<strong>Important:</strong> Index performance is not the same
+as the performance of every fund or ETF that tracks the index.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+DISCLAIMER
+===================================================== -->
 
 <div class="disclaimer">
 
 <div class="disclaimer-inner">
 
 <strong>
-IMPORTANT INVESTMENT DISCLAIMER:
+Important investment disclaimer:
 </strong>
 
 This website provides general educational and informational
-information about the MSCI World Index. It is not financial,
-investment, tax or legal advice and should not be treated as a
-personal recommendation to buy, sell or hold any investment.
+content about the MSCI World Index. It is not financial,
+investment, tax or legal advice and does not take account of
+your personal circumstances.
 
-Past performance does not guarantee future results. The value of
-investments can fall as well as rise and investors may receive
-less than they originally invested.
+Historical performance figures are not guarantees of future
+performance. Investment values can fall as well as rise and
+you may receive less than you invest.
 
-Historical £100,000 examples are mathematical illustrations based
-on published index-return figures and are not representations of
-the return an individual investor would necessarily have achieved.
+The £100,000 historical examples are mathematical
+illustrations based on published index performance and do not
+represent the actual return of a particular fund or ETF.
 
-Future-value calculations are hypothetical scenarios only and are
-not forecasts, guarantees or promises of future performance.
-
-Actual investment products can have charges, taxes, tracking
-differences, transaction costs and currency effects.
-
-The MSCI World Index is an index, not an investment fund.
+Future-value examples are hypothetical scenarios only and are
+not forecasts.
 
 Before making an investment decision, consider obtaining
 appropriate professional financial advice.
@@ -1977,19 +2556,18 @@ appropriate professional financial advice.
 </div>
 
 
-<!-- FOOTER -->
+
+<!-- =====================================================
+FOOTER
+===================================================== -->
 
 <footer>
 
 <p>
-© 2026 MSCI World Investment Guide. All rights reserved.
+© 2026 MSCI World Index Guide. All rights reserved.
 </p>
 
-<p>
-Educational investment research only.
-</p>
-
-<p style="margin-top:15px;">
+<p style="margin-top:10px;">
 
 <a href="#about">
 About
@@ -1999,66 +2577,82 @@ About
 Performance
 </a>
 
-<a href="#examples">
-£100K Examples
+<a href="#risks">
+Risks
 </a>
 
-<a href="#risk">
-Risk
+<a href="#guide">
+Guide
 </a>
 
-<a href="#faq">
-FAQs
-</a>
+</p>
 
-<a href="privacy.html">
-Privacy
-</a>
-
-<a href="contact.html">
-Contact
-</a>
-
+<p style="margin-top:15px;">
+Educational information only.
 </p>
 
 </footer>
 
 
-<!-- CALCULATOR JAVASCRIPT -->
+
+<!-- =====================================================
+CALCULATOR JAVASCRIPT
+===================================================== -->
 
 <script>
 
-function calculateInvestment() {
+function calculateInvestment(){
 
-    const amount =
-        parseFloat(document.getElementById("amount").value) || 0;
-
-    const years =
-        parseInt(document.getElementById("years").value) || 0;
+    const investment =
+        parseFloat(
+            document.getElementById("investment").value
+        );
 
     const rate =
-        parseFloat(document.getElementById("rate").value) / 100;
+        parseFloat(
+            document.getElementById("returnRate").value
+        );
 
-    const result =
-        amount * Math.pow(1 + rate, years);
+    const years =
+        parseFloat(
+            document.getElementById("years").value
+        );
+
+
+    if(
+        isNaN(investment) ||
+        isNaN(rate) ||
+        isNaN(years)
+    ){
+
+        document.getElementById("result").textContent =
+            "Please enter valid numbers";
+
+        return;
+
+    }
+
+
+    const futureValue =
+        investment *
+        Math.pow(
+            1 + (rate / 100),
+            years
+        );
+
 
     document.getElementById("result").textContent =
-        result.toLocaleString("en-GB", {
-            style: "currency",
-            currency: "GBP",
-            maximumFractionDigits: 0
-        });
+        futureValue.toLocaleString(
+            "en-GB",
+            {
+                style:"currency",
+                currency:"GBP",
+                maximumFractionDigits:0
+            }
+        );
 
 }
 
-document.getElementById("amount")
-    .addEventListener("input", calculateInvestment);
-
-document.getElementById("years")
-    .addEventListener("input", calculateInvestment);
-
-document.getElementById("rate")
-    .addEventListener("change", calculateInvestment);
 
 calculateInvestment();
 
