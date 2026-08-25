@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MSCI World Returns & Historical Performance | Annual Returns Guide</title>
+
+<meta name="description" content="Explore MSCI World returns and historical performance, including annual returns, GBP performance, £100,000 investment illustrations, risks and important points to consider when researching the index.">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://gavs25.github.io/msci-world-index/msci-world-returns.html">
+
+<meta property="og:title" content="MSCI World Returns & Historical Performance">
+<meta property="og:description" content="Research MSCI World historical returns, annual performance, GBP returns and £100,000 investment illustrations.">
+<meta property="og:url" content="https://gavs25.github.io/msci-world-index/msci-world-returns.html">
+<meta property="og:type" content="article">
+
+<style>
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#070b12;
+color:#f4f6fa;
+line-height:1.7;
+}
+
+header{
+background:#080d15;
+border-bottom:1px solid #263548;
+position:sticky;
+top:0;
+z-index:10;
+}
+
+.header-inner{
+max-width:1100px;
+margin:auto;
+padding:18px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:21px;
+font-weight:bold;
+}
+
+.logo span{
+color:#d9ad4c;
+}
+
+nav{
+display:flex;
+gap:18px;
+}
+
+nav a{
+color:#c4ccd6;
+text-decoration:none;
+font-size:14px;
+}
+
+nav a:hover{
+color:#d9ad4c;
+}
+
+.hero{
+background:
+radial-gradient(circle at 80% 20%,rgba(50,90,150,.3),transparent 35%),
+linear-gradient(135deg,#09111d,#05080e);
+padding:90px 20px;
+}
+
+.hero-inner{
+max-width:1050px;
+margin:auto;
+}
+
+.badge{
+display:inline-block;
+border:1px solid #536174;
+border-radius:30px;
+padding:7px 14px;
+color:#dfb653;
+font-size:12px;
+font-weight:bold;
+letter-spacing:1px;
+text-transform:uppercase;
+margin-bottom:22px;
+}
+
+h1{
+font-family:Georgia,"Times New Roman",serif;
+font-size:clamp(42px,6vw,68px);
+line-height:1.08;
+margin-bottom:22px;
+}
+
+h1 span{
+color:#d9ad4c;
+}
+
+.hero p{
+max-width:780px;
+font-size:19px;
+color:#c1cad5;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:75px 20px;
+}
+
+.article{
+background:#0a1019;
+}
+
+h2{
+font-family:Georgia,"Times New Roman",serif;
+font-size:36px;
+color:#fff;
+margin-bottom:18px;
+}
+
+h3{
+font-size:23px;
+color:#dfb653;
+margin:32px 0 10px;
+}
+
+p{
+color:#aeb8c5;
+margin-bottom:18px;
+}
+
+.intro{
+font-size:18px;
+}
+
+.table-wrap{
+overflow-x:auto;
+margin:30px 0;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:#111b29;
+}
+
+th,td{
+padding:15px;
+border-bottom:1px solid #2b3b4d;
+text-align:left;
+}
+
+th{
+background:#182638;
+color:#dfb653;
+}
+
+td{
+color:#c4ccd5;
+}
+
+.positive{
+color:#74ce99;
+}
+
+.negative{
+color:#ef7d7d;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:#111b29;
+border:1px solid #27384b;
+border-radius:14px;
+padding:25px;
+}
+
+.card h3{
+margin-top:0;
+}
+
+.card p{
+margin-bottom:0;
+}
+
+.highlight{
+background:#111b29;
+border:1px solid #3b4c60;
+border-left:4px solid #d9ad4c;
+padding:25px;
+border-radius:10px;
+margin:30px 0;
+}
+
+.highlight strong{
+color:#dfb653;
+}
+
+.cta{
+background:
+radial-gradient(circle at 50% 0%,rgba(214,170,70,.2),transparent 35%),
+linear-gradient(135deg,#101b29,#060a10);
+text-align:center;
+padding:80px 20px;
+}
+
+.cta h2{
+font-size:42px;
+}
+
+.price{
+color:#dfb653;
+font-size:50px;
+font-weight:bold;
+margin:15px 0;
+}
+
+.button{
+display:inline-block;
+background:#d9ad4c;
+color:#08101a;
+padding:15px 26px;
+border-radius:7px;
+text-decoration:none;
+font-weight:bold;
+margin-top:15px;
+}
+
+.button:hover{
+background:#edc76d;
+}
+
+.disclaimer{
+background:#e5e1d8;
+color:#50565e;
+padding:30px 20px;
+font-size:13px;
+}
+
+.disclaimer-inner{
+max-width:950px;
+margin:auto;
+}
+
+footer{
+background:#05070b;
+text-align:center;
+padding:30px 20px;
+color:#737d89;
+font-size:13px;
+}
+
+footer a{
+color:#dcb453;
+text-decoration:none;
+margin:0 8px;
+}
+
+@media(max-width:700px){
+
+.header-inner{
+flex-direction:column;
+gap:12px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.container{
+padding:55px 20px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="header-inner">
+
+<div class="logo">
+MSCI <span>WORLD</span>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="#returns">Returns</a>
+<a href="#history">History</a>
+<a href="#100k">£100k</a>
+<a href="#risks">Risks</a>
+<a href="#guide">Guide</a>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-inner">
+
+<div class="badge">
+MSCI World Research
+</div>
+
+<h1>
+MSCI World <span>Returns & Historical Performance</span>
+</h1>
+
+<p>
+A detailed educational guide to MSCI World historical returns,
+annual performance, GBP returns, investment illustrations and
+the risks investors should understand when researching this
+global developed-market equity index.
+</p>
+
+</div>
+
+</section>
+
+<section class="article">
+
+<div class="container">
+
+<h2>
+MSCI World Returns: What You Need to Know
+</h2>
+
+<p class="intro">
+The MSCI World Index has experienced periods of strong growth,
+as well as substantial declines. Looking at historical returns
+can help investors understand how variable global equity
+markets can be over different periods.
+</p>
+
+<p>
+MSCI World is an index rather than an investment fund. Its
+historical index return therefore should not automatically be
+treated as the return an individual investor would have
+received from a particular fund or ETF.
+</p>
+
+<div class="highlight">
+
+<strong>Important:</strong>
+
+Historical performance is not a guarantee of future results.
+The value of investments can fall as well as rise and an
+investor may receive less than they originally invested.
+
+</div>
+
+</div>
+
+</section>
+
+<section id="returns">
+
+<div class="container">
+
+<h2>
+MSCI World Annual Returns
+</h2>
+
+<p>
+The table below shows selected historical GBP net-return figures
+for MSCI World. The figures are presented for educational
+purposes and should always be checked against the latest official
+MSCI documentation.
+</p>
+
+<div class="table-wrap">
+
+<table>
+
+<thead>
+
+<tr>
+<th>Year</th>
+<th>GBP Net Return</th>
+<th>Result</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>2025</td>
+<td class="positive">12.75%</td>
+<td>Positive year</td>
+</tr>
+
+<tr>
+<td>2024</td>
+<td class="positive">20.79%</td>
+<td>Strong positive return</td>
+</tr>
+
+<tr>
+<td>2023</td>
+<td class="positive">16.81%</td>
+<td>Positive performance</td>
+</tr>
+
+<tr>
+<td>2022</td>
+<td class="negative">-7.83%</td>
+<td>Negative year</td>
+</tr>
+
+<tr>
+<td>2021</td>
+<td class="positive">22.85%</td>
+<td>Strong positive return</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<p>
+Annual returns demonstrate why investors should not assume
+that global equity markets produce the same return every year.
+A strong year can be followed by a weak year, and significant
+losses can occur during periods of market stress.
+</p>
+
+</div>
+
+</section>
+
+<section id="history" class="article">
+
+<div class="container">
+
+<h2>
+MSCI World Historical Performance
+</h2>
+
+<h3>
+Why historical returns matter
+</h3>
+
+<p>
+Historical performance can provide context when researching an
+index. It can show how the market behaved during different
+economic conditions, periods of rising interest rates, market
+recoveries and major financial shocks.
+</p>
+
+<h3>
+Historical performance is not a forecast
+</h3>
+
+<p>
+One of the most important points when researching MSCI World
+returns is that previous performance cannot reliably predict
+future performance. Future returns could be higher, lower or
+negative.
+</p>
+
+<h3>
+GBP returns versus other currencies
+</h3>
+
+<p>
+A UK investor may see a different return from the headline
+return reported in another currency. Currency movements can
+affect the return of an investment measured in pounds.
+</p>
+
+<h3>
+Index return versus fund return
+</h3>
+
+<p>
+An ETF or fund attempting to track MSCI World can have fees,
+transaction costs, tax effects and tracking differences.
+Consequently, an investor's actual return may differ from the
+index's published return.
+</p>
+
+</div>
+
+</section>
+
+<section id="100k">
+
+<div class="container">
+
+<h2>
+What Could £100,000 Become?
+</h2>
+
+<p>
+A £100,000 investment is useful for demonstrating the
+mathematics of investment returns. It is important, however,
+to distinguish a historical calculation from a prediction.
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>
+19.36% One-Year Illustration
+</h3>
+
+<p>
+If £100,000 increased by 19.36% mathematically, the result would
+be £119,360. This is an illustration using a historical rate and
+does not predict what an investment will be worth in the future.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+5% Annual Growth Scenario
+</h3>
+
+<p>
+At a hypothetical 5% annual compound rate, £100,000 would become
+approximately £127,628 after five years. This is a mathematical
+scenario, not an MSCI World forecast.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+8% Annual Growth Scenario
+</h3>
+
+<p>
+At a hypothetical 8% annual compound rate, £100,000 would become
+approximately £146,933 after five years.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+10% Annual Growth Scenario
+</h3>
+
+<p>
+At a hypothetical 10% annual compound rate, £100,000 would become
+approximately £161,051 after five years.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="risks" class="article">
+
+<div class="container">
+
+<h2>
+MSCI World Investment Risks
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>
+Market Risk</h3>
+
+<p>
+Global equity markets can experience substantial declines.
+MSCI World is not protected from market losses.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+Currency Risk</h3>
+
+<p>
+Currency movements can affect the return experienced by a UK
+investor, particularly where an investment is not fully
+currency hedged.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+Concentration</h3>
+
+<p>
+Although MSCI World covers many companies and countries,
+market-capitalisation weighting means the largest markets and
+companies can have a significant influence on performance.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+Fees and Tracking Difference</h3>
+
+<p>
+Investment funds and ETFs can charge fees and may not perfectly
+match the performance of the underlying index.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>
+MSCI World Returns: Key Questions
+</h2>
+
+<h3>
+What has MSCI World returned historically?</h3>
+
+<p>
+MSCI World has produced both positive and negative annual
+returns. The exact result depends on the period, currency,
+return type and dates being examined.
+</p>
+
+<h3>
+Can MSCI World lose money?</h3>
+
+<p>
+Yes. An investment linked to MSCI World can fall significantly
+during a market downturn. Historical maximum drawdowns
+demonstrate that global equity markets can experience large
+declines.
+</p>
+
+<h3>
+Is MSCI World suitable for five years?</h3>
+
+<p>
+There is no universal answer. A five-year period can still
+include substantial equity-market losses. Suitability depends
+on an individual's objectives, circumstances, time horizon and
+risk tolerance.
+</p>
+
+<h3>
+Is MSCI World the same as the S&amp;P 500?</h3>
+
+<p>
+No. MSCI World covers developed-market equities across multiple
+countries, whereas the S&amp;P 500 represents large US companies.
+The two indexes therefore have different geographic exposure.
+</p>
+
+<h3>
+Does MSCI World include emerging markets?</h3>
+
+<p>
+No. MSCI World is designed to represent developed markets.
+Emerging markets are covered by separate MSCI benchmarks.
+</p>
+
+</div>
+
+</section>
+
+<section class="cta" id="guide">
+
+<div>
+
+<h2>
+Want the Complete MSCI World Research Guide?
+</h2>
+
+<p>
+Explore our detailed downloadable research report covering
+MSCI World construction, historical performance, £100,000
+calculations, risks, diversification and investment research
+questions.
+</p>
+
+<div class="price">
+£10
+</div>
+
+<a
+href="https://buy.stripe.com/cNieVe6rycOPc9v1qydfG01"
+class="button"
+target="_blank"
+rel="noopener noreferrer"
+>
+GET THE COMPLETE GUIDE →
+</a>
+
+</div>
+
+</section>
+
+<div class="disclaimer">
+
+<div class="disclaimer-inner">
+
+<strong>
+Important investment disclaimer:
+</strong>
+
+This page provides general educational information about the
+MSCI World Index and does not constitute personalised financial,
+investment, tax or legal advice.
+
+Historical performance is not a guarantee of future results.
+Investment values can fall as well as rise and investors may
+receive less than they invest.
+
+The mathematical £100,000 examples are hypothetical
+illustrations and are not forecasts or recommendations.
+
+Consider obtaining appropriate professional financial advice
+before making an investment decision.
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 MSCI World Investment Guide.
+</p>
+
+<p style="margin-top:12px;">
+
+<a href="index.html">Home</a>
+<a href="#returns">Returns</a>
+<a href="#history">History</a>
+<a href="#100k">£100k</a>
+<a href="#risks">Risks</a>
+<a href="#guide">Guide</a>
+
+</p>
+
+</footer>
+
+</body>
+</html>
